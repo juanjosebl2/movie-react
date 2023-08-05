@@ -13,11 +13,6 @@ export function Search() {
     const navigate = useNavigate();
 
     useEffect(() => {
-        /*if(search){
-            setSearchText(search);
-        } else {
-            setSearchText("");
-        }*/
         setSearchText(search || "");
     }, [search]);
 
