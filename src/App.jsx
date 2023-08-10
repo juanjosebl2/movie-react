@@ -10,7 +10,7 @@ export function App(){
         <Router> 
             <div className={styles.titleInput}>
                 <header> 
-                    <Link to="/"><h1 className={styles.title}> Peliculas </h1>  </Link>
+                    <Link to="/"><h1 className={styles.title}> Movies </h1>  </Link>
                 </header>
 
             </div>
